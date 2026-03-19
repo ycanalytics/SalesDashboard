@@ -12,7 +12,7 @@ from reportlab.lib.styles import ParagraphStyle, getSampleStyleSheet
 from reportlab.lib.units import inch
 from reportlab.platypus import SimpleDocTemplate, Paragraph, Spacer, Table, TableStyle
 
-st.set_page_config(page_title="VFW Bar Sales Performance Dashboard", layout="wide")
+st.set_page_config(page_title="VFW Post 4089 Bar Sales Performance Dashboard", layout="wide")
 
 MONTH_ORDER = [
     "January", "February", "March", "April", "May", "June",
@@ -359,7 +359,8 @@ with header_left:
         st.markdown(
             """
             <div class="dashboard-header">
-                <div class="dashboard-title">VFW BAR SALES PERFORMANCE DASHBOARD</div>
+                <div class="dashboard-title">BAR SALES PERFORMANCE DASHBOARD</div>
+                <div class="dashboard-subtitle">Temecula Valley VFW Post 4089</div>
                 <div class="dashboard-subtitle">Prepared by YC Analytics</div>
             </div>
             """,
@@ -592,7 +593,7 @@ fig_top10.update_layout(
 fig_top10.update_xaxes(tickfont=dict(size=15))
 fig_top10.update_yaxes(tickfont=dict(size=15))
 st.plotly_chart(fig_top10, use_container_width=True)
-st.markdown('</div>', unsafe_allow_html=True)
+#st.markdown('</div>', unsafe_allow_html=True)
 
 insights = build_insights(category_sales, monthly_revenue, growth_pct)
 st.markdown('<div class="insight-box">', unsafe_allow_html=True)
