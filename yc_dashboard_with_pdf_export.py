@@ -595,7 +595,7 @@ fig_top10.update_yaxes(tickfont=dict(size=15))
 st.plotly_chart(fig_top10, use_container_width=True)
 
 insights = build_insights(category_sales, monthly_revenue, growth_pct)
-st.markdown('<div class="insight-box">', unsafe_allow_html=True)
+#st.markdown('<div class="insight-box">', unsafe_allow_html=True)
 st.markdown('<div class="section-card"><div class="section-title">Executive Summary</div>', unsafe_allow_html=True)
 for item in insights:
     formatted = format_insight(item)
