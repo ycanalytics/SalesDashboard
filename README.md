@@ -2,11 +2,11 @@ Business Performance Dashboard | YC Analytics
 
 An interactive, client-ready dashboard designed to analyze retail beverage sales performance and transform raw data into actionable business insights.
 
-Overview
+## Overview
 
 This project demonstrates how data analytics can be used to improve decision-making in retail operations. The dashboard provides real-time visibility into key performance metrics, category trends, and seasonal demand patterns.
 
-Features
+## Features
 
 - KPI tracking (Total Revenue, Orders, Avg Order Value, Growth)
 - Monthly revenue trend analysis
@@ -16,7 +16,7 @@ Features
 - Executive summary with automated insights
 - Client-ready PDF export
 
-Business Value
+## Business Value
 
 This dashboard enables:
 - Faster, data-driven decision-making
@@ -24,7 +24,7 @@ This dashboard enables:
 - Seasonal trend analysis for inventory planning
 - Improved promotional strategy targeting
 
-Tech Stack
+## Tech Stack
 
 - Python
 - Pandas
@@ -32,7 +32,7 @@ Tech Stack
 - Streamlit
 - ReportLab (PDF generation)
 
-▶️ How to Run
+## ▶️ How to Run
 
 ```bash
 streamlit run app.py
