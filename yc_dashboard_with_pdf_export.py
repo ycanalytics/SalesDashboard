@@ -593,18 +593,11 @@ fig_top10.update_layout(
 fig_top10.update_xaxes(tickfont=dict(size=15))
 fig_top10.update_yaxes(tickfont=dict(size=15))
 st.plotly_chart(fig_top10, use_container_width=True)
-#st.markdown('</div>', unsafe_allow_html=True)
+st.markdown('</div>', unsafe_allow_html=True)
 
 insights = build_insights(category_sales, monthly_revenue, growth_pct)
 st.markdown('<div class="insight-box">', unsafe_allow_html=True)
-st.markdown(
-    """
-    <div style="font-size:22px; font-weight:900; color:#294d7d; margin-bottom:14px;">
-        Executive Summary
-    </div>
-    """,
-    unsafe_allow_html=True
-)
+st.markdown('<div class="section-card"><div class="section-title">Executive Summary</div>', unsafe_allow_html=True)
 for item in insights:
     formatted = format_insight(item)
     st.markdown(
