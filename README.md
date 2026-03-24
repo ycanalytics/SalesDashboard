@@ -8,7 +8,7 @@ This project demonstrates how data analytics can be used to improve decision-mak
 
 ## Features
 
-- KPI tracking (Total Revenue, Orders, Avg Order Value, Growth)
+- KPI tracking (Total Revenue, Orders, Avg Order Value, Growth, donations and memberships)
 - Monthly revenue trend analysis
 - Top-performing category insights
 - Revenue breakdown visualization
