@@ -233,7 +233,7 @@ def generate_pdf_report(
 
     kpi_table = Table(
         [
-            ["Total Revenue", "Total Orders", "Avg Order Value", "Revenue Growth"],
+            ["Total Revenue", "Categories Recorded", "Average Category Amount", "Revenue Growth"],
             [
                 f"${total_revenue:,.0f}",
                 f"{total_orders:,}",
