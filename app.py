@@ -595,7 +595,7 @@ with k2:
     st.markdown(
         f"""
         <div class="kpi-card">
-            <div class="kpi-label">CATEGORIES RECORDED</div>
+            <div class="kpi-label">CATEGORIES ENTRIES</div>
             <div class="kpi-value">{total_orders:,}</div>
         </div>
         """,
