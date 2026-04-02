@@ -595,7 +595,7 @@ with k2:
     st.markdown(
         f"""
         <div class="kpi-card">
-            <div class="kpi-label">Categories Recorded</div>
+            <div class="kpi-label">CATEGORIES RECORDED</div>
             <div class="kpi-value">{total_orders:,}</div>
         </div>
         """,
@@ -605,7 +605,7 @@ with k3:
     st.markdown(
         f"""
         <div class="kpi-card">
-            <div class="kpi-label">Average Category Amount</div>
+            <div class="kpi-label">AVERAGE CATEGORY AMOUNT</div>
             <div class="kpi-value">${avg_order_value:,.2f}</div>
         </div>
         """,
